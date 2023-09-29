@@ -12,7 +12,11 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #000000;
+    background: rgb(11,119,31);
+    background: rgb(40,158,32);
+    background: linear-gradient(90deg, rgba(40,158,32,1) 
+    0%, rgba(255,255,255,1) 33%, rgba(255,255,255,1) 
+    66%, rgba(235,8,8,1) 100%);
 }
 .container{
     width: 600px;
@@ -40,7 +44,7 @@ body{
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 30px;
-    color: #fff;
+    color: #000000;
     z-index: 1;
     font-weight: 400;
     letter-spacing: 1px;
@@ -109,27 +113,27 @@ body{
 .container .btn:nth-child(1)::before,
 .container .btn:nth-child(1)::after
 {
-background: #ff1f71;
-box-shadow: 0 0 5px #ff1f71,
-0 0 15px #ff1f71,
-0 0 30px #ff1f71,
-0 0 60px #ff1f71;
+background: #03740d;
+box-shadow: 0 0 5px #03740d,
+0 0 15px #03740d,
+0 0 30px #03740d,
+0 0 60px #03740d;
 }
 .container .btn:nth-child(2)::before,
 .container .btn:nth-child(2)::after
 {
-background: #2bd2ff;
-box-shadow: 0 0 5px #2bd2ff,
-0 0 15px #2bd2ff,
-0 0 30px #2bd2ff,
-0 0 60px #2bd2ff;
+background: #0011ff;
+box-shadow: 0 0 5px #0011ff,
+0 0 15px #0011ff,
+0 0 30px #0011ff,
+0 0 60px #0011ff;
 }
 .container .btn:nth-child(3)::before,
 .container .btn:nth-child(3)::after
 {
-background: #1eff45;
-box-shadow: 0 0 5px #1eff45,
-0 0 15px #1eff45,
-0 0 30px #1eff45,
-0 0 60px #1eff45;
+background: #ff1e1e;
+box-shadow: 0 0 5px #ff1e1e,
+0 0 15px #ff1e1e,
+0 0 30px #ff1e1e,
+0 0 60px #ff1e1e;
 }
